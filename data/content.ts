@@ -65,7 +65,7 @@ export const education: EducationItem[] = [
     degree: "Online Specialization",
     period: "Jul 2025 - Sept 2025",
     link: "https://www.coursera.org/account/accomplishments/specialization/DPZ9U9QAKY4G",
-    image: "/img/imperial_logo.jpg",
+    image: "/portfolio/img/imperial_logo.jpg",
   },
 ];
 
@@ -162,7 +162,7 @@ export const experiences: ExperienceItem[] = [
       "Set up CI/CD pipelines and zero-downtime releases",
     ],
     link: "https://apps.apple.com/fr/developer/thetys-lab/id1675347984?l=en-GB",
-    image: "/img/thetys_lab_logo.jpeg",
+    image: "/portfolio/img/thetys_lab_logo.jpeg",
   },
   {
     company: "Peewix",
@@ -176,7 +176,7 @@ export const experiences: ExperienceItem[] = [
       "Managed infra, backend, and mobile app integration",
     ],
     link: "https://www.linkedin.com/posts/armandblin_ios-android-share-activity-7064022808468602880-LI6t",
-    image: "/img/peewix_logo.jpeg",
+    image: "/portfolio/img/peewix_logo.jpeg",
   },
 ];
 
@@ -186,7 +186,7 @@ export const hackathons: HackathonItem[] = [
     description:
       "AI-powered Technical Interview Assistant designed to help developers practice, improve, and receive real-time feedback during mock interviews.",
     link: "https://github.com/ElevenLabs-Agents-Hackathon/web-page",
-    image: "/img/elevenlabs_logo.png",
+    image: "/portfolio/img/elevenlabs_logo.png",
   },
   {
     name: "Finalist — Google Healthcare Hackathon 2025",
