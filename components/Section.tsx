@@ -19,7 +19,7 @@ export function Section({ id, title, description, children }: SectionProps) {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, margin: "-80px" }}
-            className="mb-8 md:mb-12"
+            className="mb-0 md:mb-0"
           >
             {title && (
               <motion.h2

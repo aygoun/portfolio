@@ -11,7 +11,6 @@ export const socialLinks: SocialLink[] = [
 
 export const site = {
   name: "Armand Blin",
-  title: "Master in AI — ML Research Student",
-  tagline:
-    "Seeking final research internship (April 2026). Focus: Visual Understanding, CV, DL.",
+  title: "ML Engineer & Researcher",
+  tagline: "Focused on LLM & Deep Learning Engineering",
 };

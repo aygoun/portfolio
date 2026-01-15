@@ -65,8 +65,7 @@ export const education: EducationItem[] = [
     degree: "Online Specialization",
     period: "Jul 2025 - Sept 2025",
     link: "https://www.coursera.org/account/accomplishments/specialization/DPZ9U9QAKY4G",
-    image:
-      "https://yt3.googleusercontent.com/_gp1LqIURbX2pdr2bs64lMjrAhAzCauxVoEe31KXx24tABu9scVZKvFLue8ZrHlHWO3PmvLa52o=s900-c-k-c0x00ffffff-no-rj",
+    image: "/img/imperial_logo.jpg",
   },
 ];
 
@@ -127,6 +126,17 @@ export const projects: ProjectItem[] = [
 
 export const experiences: ExperienceItem[] = [
   {
+    company: "Mistral AI",
+    role: "Applied AI Engineer Intern",
+    period: "Apr 2026 - Oct 2026",
+    description:
+      "Applied AI engineering internship focusing on developing and deploying AI models and systems.",
+    tags: ["AI", "ML", "Deep Learning"],
+    link: "https://mistral.ai/",
+    image:
+      "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/mistral-color.png",
+  },
+  {
     company: "Machina Capital",
     role: "Software Engineer Intern",
     period: "Sept 2024 - Jan 2025",
@@ -152,8 +162,7 @@ export const experiences: ExperienceItem[] = [
       "Set up CI/CD pipelines and zero-downtime releases",
     ],
     link: "https://apps.apple.com/fr/developer/thetys-lab/id1675347984?l=en-GB",
-    image:
-      "https://media.licdn.com/dms/image/v2/D4E0BAQHmhF10LkCsbw/company-logo_200_200/B4EZX8FFS_HkAM-/0/1743690946658/thetys_lab_logo?e=1762992000&v=beta&t=3_DHsGJ3LavLZmIQoX_-Db7cVX6w3XOQuyt-sphhAGI",
+    image: "/img/thetys_lab_logo.jpeg",
   },
   {
     company: "Peewix",
@@ -167,12 +176,18 @@ export const experiences: ExperienceItem[] = [
       "Managed infra, backend, and mobile app integration",
     ],
     link: "https://www.linkedin.com/posts/armandblin_ios-android-share-activity-7064022808468602880-LI6t",
-    image:
-      "https://media.licdn.com/dms/image/v2/D560BAQGJmk6aundYuQ/company-logo_100_100/company-logo_100_100/0/1682298038851?e=1762992000&v=beta&t=s9Leg2gqAY96RPG--oG9G4yxKIiGWvFU7k0YkMi-sM8",
+    image: "/img/peewix_logo.jpeg",
   },
 ];
 
 export const hackathons: HackathonItem[] = [
+  {
+    name: "🥈2nd place - ElevenLabs Conversational Hackathon",
+    description:
+      "AI-powered Technical Interview Assistant designed to help developers practice, improve, and receive real-time feedback during mock interviews.",
+    link: "https://github.com/ElevenLabs-Agents-Hackathon/web-page",
+    image: "/img/elevenlabs_logo.png",
+  },
   {
     name: "Finalist — Google Healthcare Hackathon 2025",
     description:

@@ -12,28 +12,16 @@ export default function HomePage() {
     <div>
       <NavBar />
       <Hero />
-      <Section
-        id="education"
-        title="Education"
-        description="Academic background and relevant coursework"
-      >
+      <Section id="education" title="Education">
         <EducationSection />
       </Section>
-      <Section
-        id="experience"
-        title="Experience"
-        description="Internships, research, and roles"
-      >
+      <Section id="experience" title="Experience">
         <ExperienceSection />
       </Section>
-      <Section id="projects" title="Projects" description="Selected work">
+      <Section id="projects" title="Projects">
         <ProjectsSection />
       </Section>
-      <Section
-        id="hackathons"
-        title="Hackathons"
-        description="Community & comps"
-      >
+      <Section id="hackathons" title="Hackathons">
         <HackathonsSection />
       </Section>
       <Footer />

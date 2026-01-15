@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Portfolio | ML Research Student",
-  description:
-    "Personal portfolio for an ML Research student seeking an internship.",
+  title: "Portfolio | Armand Blin",
+  description: "Armand Blin personal portfolio for an ML Engineer.",
   metadataBase: new URL("https://localhost"),
 };
 
